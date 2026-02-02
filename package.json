@@ -1,0 +1,18 @@
+{
+  "name": "jarrod-the-human",
+  "version": "1.0.0",
+  "description": "Slack bot for collecting feature requests",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@slack/bolt": "^3.17.0",
+    "@anthropic-ai/sdk": "^0.24.0",
+    "@linear/sdk": "^19.0.0",
+    "node-cron": "^3.0.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
